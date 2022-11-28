@@ -1,0 +1,456 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-image: url(https://www.ignitiv.com/wp-content/uploads/2020/09/slide-s.png),url(https://www.ignitiv.com/wp-content/uploads/2020/09/slide-y.png),url(https://www.ignitiv.com/wp-content/uploads/2021/06/Digital-Transformation.jpg);
+    background-position: -250px 150px ,1100px 150px,center;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 600px,600px,cover;
+    height: 800px;
+    /* filter: grayscale(100%); */
+    position: relative;
+    color: white;
+    background-color: transparent ,transparent,rgba(36, 33, 33,0.1);
+}
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+    text-align: center;
+}
+.logo{
+ /* font-size: 30px; */
+ padding-left: 20px;
+}
+.logo h3{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    margin-top: 7px;
+   margin-bottom: 8px;
+    cursor: pointer;
+}
+.navlinks{
+    margin-right: 76px;
+    margin-top: 15px;
+    /* position: relative; */
+}
+.navlinks ul{
+    list-style: none;
+    
+}
+.navlinks ul li{
+    margin-left: 34px;
+    display: inline-block;
+    
+   
+}
+.sub-class-1{
+    display: none;
+ 
+}
+
+.sub-class-1 ul{
+    text-align: left;
+}
+
+
+
+.navlinks ul li a{
+   
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.navlinks ul li:hover .sub-class-1{
+    display:block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+ 
+
+.navlinks ul li:hover .sub-class-1 ul li{
+    display: block;
+    text-align: left;
+    
+}
+.navlinks ul li:hover .sub-class-1 ul li a{
+    line-height: 2;
+    font-size: 15px;
+    font-weight: 0;
+}
+
+.container #text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    line-height: 1.5;
+    font-size: 53px;
+    color: white;
+    
+    } 
+
+    #btn{
+        position: absolute;
+        top: 70%;
+        left: 45%;
+        color: wheat;
+        border: 1px solid #f0f0f0;
+        padding: 13px 42px;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+       }
+
+       #btn:hover{
+        background-color: #f0f0f0;
+        color: black;
+       }
+       
+       .mainText{
+        width: 900px;
+        margin: 10vh auto 0 auto;
+        text-align: center;
+        line-height: 1.5;
+       }
+
+       .mainText h2{
+        font-size: 50px;
+        font-weight: bolder;
+       }
+       .flex{
+        display: flex;
+        /* flex-direction: row; */
+       }
+
+       .just-content{
+        justify-content: space-evenly;
+       }
+
+       .animation{
+        width: 100%;
+       
+       }
+       .margin-top{
+        margin-top: 70px;
+       }
+       .height{
+        height: 400px;
+       }
+       .ani1{
+        
+        position: relative;
+        background-color:rgb(88, 88, 218);
+       }
+       .bounce1 img{
+        width: 200px;
+        height: 200px;
+       }
+
+       .bounce1{
+        background-image: url(https://www.ignitiv.com/wp-content/uploads/2020/09/slide-s.png);
+        animation:bounce 2s linear infinite;
+        background-size: 200px;
+        background-repeat: no-repeat;
+       }
+       
+       @keyframes bounce{
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(60px);
+        }
+       }
+       .anim-heading{
+        font-size: 30px;
+        color: #ffffff;
+       }
+
+       .animation p{
+        color: white;
+        line-height: 1.5;
+       }
+       .padding{
+        padding: 30px 60px;
+       }
+       .ani2{
+        background-color: black;
+       }
+       .ani3{
+        background-color:rgb(88, 88, 218);
+       }
+
+        .btn-div{
+            margin-top: 35px;
+            position: relative;
+        }
+
+        .anim-btn{
+            color: wheat;
+            border: 1px solid #f0f0f0;
+            padding: 13px 42px;
+            border-radius: 4px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+           position: absolute;
+           margin-left: 25%;
+        }
+
+        .anim-btn:hover{
+            background-color: whitesmoke;
+            color: black;
+        }
+         
+
+         
+          
+          /* .wrapper {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 5px;
+            background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+            overflow: hidden;
+          } */
+          
+          /* .wave {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 800px;
+            left: 50%;
+            margin-left: -500px;
+            margin-top: -500px;
+            border-radius: 35%;
+            background: rgba(255, 255, 255, .75);
+            animation: wave 15s infinite linear;
+          }
+          
+          @keyframes wave {
+            from { transform: rotate(0deg);}
+            from { transform: rotate(360deg);}
+          } */
+           
+       .outerContainer{
+        width: 100%;
+        display: flex;
+       }
+       .colm1{
+        width: 100%;
+       }
+       .colm2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        background-color:  #f4f4f4;
+       }
+       .colm2{
+        padding: 25px 0;
+        text-align: center;
+       }
+       .colm2 h2{
+        font-size: 30px;
+       
+       }
+        .line{
+            
+            display: flex;
+            padding-left: 25px;
+        }  
+        .innerPara{
+             margin: 1vh auto 0 auto;
+            padding: 0px 60px;
+            text-align: left;
+        }
+        .innerPara p{
+            line-height: 1.5;
+        }
+        
+        .inner-btn {
+            margin: 30px auto 0 25%;
+            padding: 15px 30px;
+            border: 1px solid black;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .inner-btn:hover{
+            color: white;
+            background-color: black;
+            transition: 0.4s ease;
+        }
+        
+        .redbg{
+        
+            background-color: #ff0437;
+            justify-content: space-evenly;
+            height: 400px;
+            color:white;
+            text-align: center;
+        }
+
+         .in-padding{
+            padding-top: 80px;
+            padding-right: 80px;
+            /* display: inline; */
+        
+            height: 100%;
+            width: 100%;
+            text-align: center;
+             
+         }
+         .head-1{
+            color: white;
+         }
+
+         .in-content h1{
+            font-size: 60px;
+            font-weight: 600;
+           width: 100%;
+           
+         }
+         sup{
+            
+            font-size: 25px;
+         }
+
+          footer{
+            z-index: 100;
+             box-sizing: border-box;
+             color: #fff;
+             position: relative;
+          }
+          .max-footer{
+            background-image: url(https://www.ignitiv.com/wp-content/uploads/2020/08/Footer.jpg);
+            display: flex;
+            justify-content: space-evenly;
+            color: #fff;
+            background-size: cover;
+            background-position: top;
+            height: 400px;
+            padding: 0 80px;
+
+            
+          }
+          .max-footer p{
+            line-height: 2;
+          }
+
+          .main1{
+            display: flex;
+            width: 100%;
+            padding: 30px 60px;
+            justify-content: space-evenly;
+            height: 100%;
+          }
+
+          .main2{
+            height: 100%;
+            justify-content: space-evenly;
+            display: flex;
+            width: 100%;
+            padding: 30px 60px;
+          }
+          .main1-1{
+            width: 100%;
+          }
+
+          .main1-2{
+            width: 100%;
+            margin-left: 20px;
+          }
+
+          .main1-2 ul li{
+            list-style: none;
+          }
+          .main1-2 ul li a{
+            text-decoration: none;
+            color: white;
+            line-height: 2.5;
+            transition: 0.5s;
+            position: relative;
+          }
+
+          .main1-2 ul li a:hover{
+            /* position: absolute; */
+            /* top: 10px; */
+            text-decoration: underline;
+            text-decoration-color: black;
+            transition: .4s;
+          }
+          .main1-2 .arrow{
+          color:   #06f;
+          }
+          .main2-1 a{
+           text-decoration: none;
+            color: white;
+          }
+
+          .main2-1{
+            width: 100%;
+          }
+          
+          .main2-2{
+            width: 100%;
+            margin-left: 30px;
+          }
+
+          .main2-2 span{
+            line-height: 1.5;
+          }
+
+          .main2-2 i{
+            margin-right: 10px;
+            color: #06f
+          }
+
+          .brands{
+            margin-top: 25px;
+          }
+           .inline{
+            display: inline;
+            font-size: 35px;
+            color: white;
+           }
+
+           /* .inline a{
+            padding-left: 15px;
+            color: white;
+           } */
+
+           .copyright{
+            border-top: 1px solid white;
+            
+            /* margin-top: 0; */
+            background-color:  #080822;
+            height: 100px;
+            text-align: center;
+            color: white;
+           }
+           .copyright p{
+            margin-top: 40px;
+           }
+           .copyright p a{
+            text-decoration: none;
+            
+           }
+
+
+           
+         
